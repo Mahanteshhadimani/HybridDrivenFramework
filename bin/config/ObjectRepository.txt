@@ -1,0 +1,8 @@
+#Home Page Objects
+btn_AccountsSetting = Account Settings
+mnuOption_Logout = Log Out
+
+#Login Page Objects
+txtBox_Email = .//*[@id='email']
+txtBox_Pwd = .//*[@id='pass']
+btn_Login = .//*[@value='Log In' and @type='submit']
