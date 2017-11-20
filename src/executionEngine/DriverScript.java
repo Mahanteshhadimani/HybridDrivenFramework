@@ -21,6 +21,7 @@ public class DriverScript {
 	public static int iTestLastStep;
 	public static String sTestCaseID;
 	public static String sRunMode;
+	public static boolean bResult;
 
 	public DriverScript() throws NoSuchMethodException, SecurityException{
 		actionKeywords = new ActionKeywords();
