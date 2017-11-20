@@ -25,5 +25,10 @@ public class Constants {
 
 	// List of column for 'Page Object'
 	public static final int Col_PageObject = 3;
+	public static final int Col_Result = 3;
+	public static final int Col_DataSet =5 ;
+	public static final int Col_TestStepResult =6 ;
 
+	public static final String KEYWORD_FAIL = "FAIL";
+	public static final String KEYWORD_PASS = "PASS";
 }

@@ -4,7 +4,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import executionEngine.DriverScript;
 import utility.Log;
@@ -15,19 +17,32 @@ public class ActionKeywords {
 
 	public static WebDriver driver;
 
-	public static void openBrowser(String object) {
+	public static void openBrowser(String object, String data) {
+		Log.info("Opening Browser");
 		try {
-			Log.info("Opening Browser");
-			System.setProperty("webdriver.gecko.driver", "C:\\DEV\\geckodriver\\geckodriver.exe");
-			driver = new FirefoxDriver();
+			// If value of the parameter is Mozilla, this will execute
+			if (data.equals("Mozilla")) {
+				System.setProperty("webdriver.gecko.driver", "C:\\DEV\\geckodriver\\geckodriver.exe");
+				driver = new FirefoxDriver();
+				Log.info("Mozilla browser started");
+			} else if (data.equals("IE")) {
+				// You may need to change the code here to start IE Driver
+				driver = new InternetExplorerDriver();
+				Log.info("IE browser started");
+			} else if (data.equals("Chrome")) {
+				driver = new ChromeDriver();
+				Log.info("Chrome browser started");
+			}
+
+			int implicitWaitTime = (10);
+			driver.manage().timeouts().implicitlyWait(implicitWaitTime, TimeUnit.SECONDS);
 		} catch (Exception e) {
-			Log.info("Not able to open Browser --- " + e.getMessage());
+			Log.info("Not able to open the Browser --- " + e.getMessage());
 			DriverScript.bResult = false;
-			e.printStackTrace();
 		}
 	}
 
-	public static void navigate(String object) {
+	public static void navigate(String object, String data) {
 		try {
 			Log.info("Navigating to URL");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -39,11 +54,11 @@ public class ActionKeywords {
 		}
 	}
 
-	public static void enterUserName(String object) {
+	public static void enterUserName(String object, String data) {
 		try {
 			Log.info("Entering the text in UserName");
 			System.out.println(object);
-			driver.findElement(By.xpath(ObjectRepository.getProperty(object))).sendKeys(Constants.Username);
+			driver.findElement(By.xpath(ObjectRepository.getProperty(object))).sendKeys(data);
 		} catch (Exception e) {
 			Log.info("Not able to enter Username --- " + e.getMessage());
 			DriverScript.bResult = false;
@@ -51,10 +66,10 @@ public class ActionKeywords {
 		}
 	}
 
-	public static void enterPassword(String object) {
+	public static void enterPassword(String object, String data) {
 		try {
 			Log.info("Entering the text in Password");
-			driver.findElement(By.xpath(ObjectRepository.getProperty(object))).sendKeys(Constants.Password);
+			driver.findElement(By.xpath(ObjectRepository.getProperty(object))).sendKeys(data);
 		} catch (Exception e) {
 			Log.info("Not able to enter Password --- " + e.getMessage());
 			DriverScript.bResult = false;
@@ -62,7 +77,7 @@ public class ActionKeywords {
 		}
 	}
 
-	public static void waitFor(String object) throws Exception {
+	public static void waitFor(String object, String data) throws Exception {
 		try {
 			Log.info("Wait for 5 seconds");
 			Thread.sleep(5000);
@@ -73,7 +88,7 @@ public class ActionKeywords {
 		}
 	}
 
-	public static void clickAccountSettings(String object) {
+	public static void clickAccountSettings(String object, String data) {
 		try {
 			Log.info("Click on Account Settings");
 			driver.findElement(By.linkText(ObjectRepository.getProperty(object))).click();
@@ -84,7 +99,7 @@ public class ActionKeywords {
 		}
 	}
 
-	public static void clickLogout(String object) {
+	public static void clickLogout(String object, String data) {
 		try {
 			Log.info("ClickLogout");
 			driver.findElement(By.linkText(ObjectRepository.getProperty(object))).click();
@@ -95,7 +110,7 @@ public class ActionKeywords {
 		}
 	}
 
-	public static void closeBrowser(String object) {
+	public static void closeBrowser(String object, String data) {
 		try {
 			Log.info("Closing the browser");
 			driver.quit();
@@ -106,7 +121,7 @@ public class ActionKeywords {
 		}
 	}
 
-	public static void click(String object) {
+	public static void click(String object, String data) {
 		try {
 			Log.info("Clicking on Webelement " + object);
 			System.out.println(object);

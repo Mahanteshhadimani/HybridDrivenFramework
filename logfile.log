@@ -105,3 +105,121 @@
 2017-11-19 20:02:34,409 INFO  [Log] X 
 2017-11-19 20:02:34,409 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
 2017-11-19 20:02:34,409 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:09:59,075 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:09:59,075 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:09:59,075 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:09:59,075 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-19 21:09:59,075 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:09:59,075 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:09:59,076 INFO  [Log] Opening Browser 
+2017-11-19 21:10:06,171 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-19 21:10:06,171 INFO  [Log] X 
+2017-11-19 21:10:06,171 INFO  [Log] X 
+2017-11-19 21:10:06,171 INFO  [Log] X 
+2017-11-19 21:10:06,171 INFO  [Log] X 
+2017-11-19 21:11:21,767 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:11:21,768 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:11:21,768 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:11:21,768 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-19 21:11:21,768 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:11:21,768 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:11:21,769 INFO  [Log] Opening Browser 
+2017-11-19 21:11:26,584 INFO  [Log] Navigating to URL 
+2017-11-19 21:11:28,528 INFO  [Log] Clicking on Webelement txtBox_Email 
+2017-11-19 21:11:29,152 INFO  [Log] Entering the text in UserName 
+2017-11-19 21:11:29,209 INFO  [Log] Entering the text in Password 
+2017-11-19 21:11:29,255 INFO  [Log] Clicking on Webelement btn_Login 
+2017-11-19 21:11:31,687 INFO  [Log] Wait for 5 seconds 
+2017-11-19 21:11:36,688 INFO  [Log] Click on Account Settings 
+2017-11-19 21:11:36,981 INFO  [Log] ClickLogout 
+2017-11-19 21:11:38,077 INFO  [Log] Closing the browser 
+2017-11-19 21:11:38,542 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:11:38,542 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:11:38,543 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-19 21:11:38,543 INFO  [Log] X 
+2017-11-19 21:11:38,543 INFO  [Log] X 
+2017-11-19 21:11:38,543 INFO  [Log] X 
+2017-11-19 21:11:38,543 INFO  [Log] X 
+2017-11-19 21:11:38,543 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:11:38,544 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:18:34,128 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:18:34,129 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:18:34,129 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:18:34,129 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-19 21:18:34,129 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:18:34,129 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:18:34,130 INFO  [Log] Opening Browser 
+2017-11-19 21:18:39,508 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-19 21:18:39,508 INFO  [Log] X 
+2017-11-19 21:18:39,508 INFO  [Log] X 
+2017-11-19 21:18:39,508 INFO  [Log] X 
+2017-11-19 21:18:39,508 INFO  [Log] X 
+2017-11-19 21:18:39,508 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:18:39,508 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:19:26,192 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:19:26,192 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:19:26,192 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:19:26,192 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-19 21:19:26,192 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:19:26,192 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:19:26,193 INFO  [Log] Opening Browser 
+2017-11-19 21:19:31,830 INFO  [Log] Navigating to URL 
+2017-11-19 21:19:34,205 INFO  [Log] Clicking on Webelement txtBox_Email 
+2017-11-19 21:19:35,196 INFO  [Log] Entering the text in UserName 
+2017-11-19 21:19:35,397 INFO  [Log] Entering the text in Password 
+2017-11-19 21:19:35,552 INFO  [Log] Clicking on Webelement btn_Login 
+2017-11-19 21:19:37,749 INFO  [Log] Wait for 5 seconds 
+2017-11-19 21:19:42,810 INFO  [Log] Click on Account Settings 
+2017-11-19 21:19:43,156 INFO  [Log] ClickLogout 
+2017-11-19 21:19:44,262 INFO  [Log] Closing the browser 
+2017-11-19 21:19:44,672 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:19:44,672 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:19:44,701 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-19 21:19:44,701 INFO  [Log] X 
+2017-11-19 21:19:44,701 INFO  [Log] X 
+2017-11-19 21:19:44,701 INFO  [Log] X 
+2017-11-19 21:19:44,701 INFO  [Log] X 
+2017-11-19 21:19:44,701 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:19:44,701 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:32:41,164 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:32:41,164 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:32:41,164 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:32:41,164 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-19 21:32:41,164 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:32:41,164 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:32:41,165 INFO  [Log] Opening Browser 
+2017-11-19 21:32:46,087 INFO  [Log] Mozilla browser started 
+2017-11-19 21:32:46,099 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-19 21:32:46,099 INFO  [Log] X 
+2017-11-19 21:32:46,099 INFO  [Log] X 
+2017-11-19 21:32:46,099 INFO  [Log] X 
+2017-11-19 21:32:46,099 INFO  [Log] X 
+2017-11-19 21:32:46,099 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:32:46,099 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:32:59,189 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:32:59,190 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:32:59,190 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:32:59,190 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-19 21:32:59,190 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:32:59,190 INFO  [Log] **************************************************************************************** 
+2017-11-19 21:32:59,191 INFO  [Log] Opening Browser 
+2017-11-19 21:33:04,549 INFO  [Log] Mozilla browser started 
+2017-11-19 21:33:04,682 INFO  [Log] Navigating to URL 
+2017-11-19 21:33:06,763 INFO  [Log] Clicking on Webelement txtBox_Email 
+2017-11-19 21:33:08,026 INFO  [Log] Entering the text in UserName 
+2017-11-19 21:33:08,143 INFO  [Log] Entering the text in Password 
+2017-11-19 21:33:08,263 INFO  [Log] Clicking on Webelement btn_Login 
+2017-11-19 21:33:10,511 INFO  [Log] Wait for 5 seconds 
+2017-11-19 21:33:15,568 INFO  [Log] Click on Account Settings 
+2017-11-19 21:33:15,970 INFO  [Log] ClickLogout 
+2017-11-19 21:33:17,087 INFO  [Log] Closing the browser 
+2017-11-19 21:33:17,589 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:33:17,589 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:33:17,589 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:33:17,615 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-19 21:33:17,615 INFO  [Log] X 
+2017-11-19 21:33:17,615 INFO  [Log] X 
+2017-11-19 21:33:17,615 INFO  [Log] X 
+2017-11-19 21:33:17,615 INFO  [Log] X 
+2017-11-19 21:33:17,616 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 21:33:17,616 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
