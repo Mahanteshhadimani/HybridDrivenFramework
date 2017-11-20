@@ -80,3 +80,28 @@
 2017-11-19 19:47:07,984 INFO  [Log] X 
 2017-11-19 19:47:07,984 INFO  [Log] X 
 2017-11-19 19:47:07,984 INFO  [Log] X 
+2017-11-19 20:02:16,164 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 20:02:16,164 INFO  [Log] **************************************************************************************** 
+2017-11-19 20:02:16,164 INFO  [Log] **************************************************************************************** 
+2017-11-19 20:02:16,167 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-19 20:02:16,167 INFO  [Log] **************************************************************************************** 
+2017-11-19 20:02:16,167 INFO  [Log] **************************************************************************************** 
+2017-11-19 20:02:16,168 INFO  [Log] Opening Browser 
+2017-11-19 20:02:21,955 INFO  [Log] Navigating to URL 
+2017-11-19 20:02:23,960 INFO  [Log] Clicking on Webelement txtBox_Email 
+2017-11-19 20:02:24,801 INFO  [Log] Entering the text in UserName 
+2017-11-19 20:02:24,891 INFO  [Log] Entering the text in Password 
+2017-11-19 20:02:24,943 INFO  [Log] Clicking on Webelement btn_Login 
+2017-11-19 20:02:27,365 INFO  [Log] Wait for 5 seconds 
+2017-11-19 20:02:32,368 INFO  [Log] Click on Account Settings 
+2017-11-19 20:02:32,703 INFO  [Log] ClickLogout 
+2017-11-19 20:02:33,922 INFO  [Log] Closing the browser 
+2017-11-19 20:02:34,408 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 20:02:34,408 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 20:02:34,408 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-19 20:02:34,408 INFO  [Log] X 
+2017-11-19 20:02:34,409 INFO  [Log] X 
+2017-11-19 20:02:34,409 INFO  [Log] X 
+2017-11-19 20:02:34,409 INFO  [Log] X 
+2017-11-19 20:02:34,409 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-19 20:02:34,409 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
