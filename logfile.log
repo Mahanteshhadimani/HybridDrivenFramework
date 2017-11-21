@@ -223,3 +223,117 @@
 2017-11-19 21:33:17,615 INFO  [Log] X 
 2017-11-19 21:33:17,616 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
 2017-11-19 21:33:17,616 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:45:38,622 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:45:38,622 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:45:38,622 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:45:38,622 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-21 05:45:38,622 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:45:38,622 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:45:38,622 INFO  [Log] Opening Browser 
+2017-11-21 05:45:38,669 INFO  [Log] Not able to open the Browser --- The driver executable does not exist: C:\DEV\chromedriver\chromedriver 
+2017-11-21 05:45:38,763 INFO  [Log] Closing the browser 
+2017-11-21 05:45:38,763 INFO  [Log] Not able to close the browser --- null 
+2017-11-21 05:45:38,825 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-21 05:45:38,825 INFO  [Log] X 
+2017-11-21 05:45:38,825 INFO  [Log] X 
+2017-11-21 05:45:38,825 INFO  [Log] X 
+2017-11-21 05:45:38,841 INFO  [Log] X 
+2017-11-21 05:45:38,841 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:45:38,841 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:47:12,330 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:47:12,330 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:47:12,330 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:47:12,330 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-21 05:47:12,330 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:47:12,330 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:47:12,330 INFO  [Log] Opening Browser 
+2017-11-21 05:47:14,687 INFO  [Log] Chrome browser started 
+2017-11-21 05:47:14,843 INFO  [Log] Navigating to URL 
+2017-11-21 05:47:16,750 INFO  [Log] Clicking on Webelement txtBox_Email 
+2017-11-21 05:47:17,676 INFO  [Log] Entering the text in UserName 
+2017-11-21 05:47:17,833 INFO  [Log] Entering the text in Password 
+2017-11-21 05:47:17,955 INFO  [Log] Clicking on Webelement btn_Login 
+2017-11-21 05:47:20,362 INFO  [Log] Wait for 5 seconds 
+2017-11-21 05:47:25,403 INFO  [Log] Click on Account Settings 
+2017-11-21 05:47:25,608 INFO  [Log] ClickLogout 
+2017-11-21 05:47:26,845 INFO  [Log] Closing the browser 
+2017-11-21 05:47:27,591 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:47:27,591 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:47:27,591 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:47:27,622 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-21 05:47:27,622 INFO  [Log] X 
+2017-11-21 05:47:27,622 INFO  [Log] X 
+2017-11-21 05:47:27,622 INFO  [Log] X 
+2017-11-21 05:47:27,622 INFO  [Log] X 
+2017-11-21 05:47:27,622 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:47:27,622 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:52:46,741 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:52:46,741 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:52:46,741 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:52:46,741 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-21 05:52:46,741 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:52:46,741 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:52:46,741 INFO  [Log] Opening Browser 
+2017-11-21 05:52:48,576 INFO  [Log] IE browser started 
+2017-11-21 05:52:48,780 INFO  [Log] Navigating to URL 
+2017-11-21 05:52:49,288 INFO  [Log] Clicking on Webelement txtBox_Email 
+2017-11-21 05:52:49,524 INFO  [Log] Entering the text in UserName 
+2017-11-21 05:52:50,005 INFO  [Log] Entering the text in Password 
+2017-11-21 05:52:50,114 INFO  [Log] Clicking on Webelement btn_Login 
+2017-11-21 05:52:50,385 INFO  [Log] Wait for 5 seconds 
+2017-11-21 05:52:55,430 INFO  [Log] Click on Account Settings 
+2017-11-21 05:52:55,593 INFO  [Log] ClickLogout 
+2017-11-21 05:53:05,678 INFO  [Log] Not able to click logout --- No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
+System info: host: 'NITZZZLAPPY', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 41.16299.15.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 372273AE-F2C1-4B0C-8D70-1AC27E55BB28
+*** Element info: {Using=link text, value=Log Out} 
+2017-11-21 05:53:05,741 INFO  [Log] Closing the browser 
+2017-11-21 05:53:08,607 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-21 05:53:08,607 INFO  [Log] X 
+2017-11-21 05:53:08,607 INFO  [Log] X 
+2017-11-21 05:53:08,607 INFO  [Log] X 
+2017-11-21 05:53:08,607 INFO  [Log] X 
+2017-11-21 05:53:08,607 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:53:08,607 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:54:01,931 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:54:01,931 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:54:01,931 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:54:01,931 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-21 05:54:01,931 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:54:01,931 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:54:01,931 INFO  [Log] Opening Browser 
+2017-11-21 05:54:03,549 INFO  [Log] IE browser started 
+2017-11-21 05:54:03,736 INFO  [Log] Navigating to URL 
+2017-11-21 05:54:05,455 INFO  [Log] Clicking on Webelement txtBox_Email 
+2017-11-21 05:54:15,479 INFO  [Log] Not able to click txtBox_Email --- No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
+System info: host: 'NITZZZLAPPY', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 41.16299.15.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 23AA2F98-3A7F-455F-B50C-F980B655CAB0
+*** Element info: {Using=xpath, value=.//*[@id='email']} 
+2017-11-21 05:54:15,565 INFO  [Log] Closing the browser 
+2017-11-21 05:54:18,501 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-21 05:54:18,501 INFO  [Log] X 
+2017-11-21 05:54:18,501 INFO  [Log] X 
+2017-11-21 05:54:18,501 INFO  [Log] X 
+2017-11-21 05:54:18,501 INFO  [Log] X 
+2017-11-21 05:54:18,501 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:54:18,501 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:54:22,069 ERROR [Log] Class Utils | Method getCellData | Exception desc : null 
+2017-11-21 05:54:22,069 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:54:22,069 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:54:22,069 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-21 05:54:22,069 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:54:22,069 INFO  [Log] **************************************************************************************** 
+2017-11-21 05:54:22,069 INFO  [Log] Opening Browser 
+2017-11-21 05:54:23,625 INFO  [Log] IE browser started 
+2017-11-21 05:54:23,828 INFO  [Log] Navigating to URL 
+2017-11-21 05:54:25,254 INFO  [Log] Clicking on Webelement txtBox_Email 

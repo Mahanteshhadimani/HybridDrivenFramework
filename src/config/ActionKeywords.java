@@ -1,12 +1,15 @@
 package config;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import executionEngine.DriverScript;
 import utility.Log;
@@ -17,19 +20,24 @@ public class ActionKeywords {
 
 	public static WebDriver driver;
 
+	@SuppressWarnings("deprecation")
 	public static void openBrowser(String object, String data) {
 		Log.info("Opening Browser");
 		try {
-			// If value of the parameter is Mozilla, this will execute
 			if (data.equals("Mozilla")) {
 				System.setProperty("webdriver.gecko.driver", "C:\\DEV\\geckodriver\\geckodriver.exe");
 				driver = new FirefoxDriver();
 				Log.info("Mozilla browser started");
-			} else if (data.equals("IE")) {
-				// You may need to change the code here to start IE Driver
-				driver = new InternetExplorerDriver();
+			} else if (data.equals("Edge")) {
+			    File file = new File("C:\\DEV\\edgedriver\\MicrosoftWebDriver.exe");
+
+			    System.setProperty("webdriver.edge.driver", file.getAbsolutePath());
+			    DesiredCapabilities capabilities = DesiredCapabilities.edge();
+			    driver = new EdgeDriver(capabilities);
+				
 				Log.info("IE browser started");
 			} else if (data.equals("Chrome")) {
+				System.setProperty("webdriver.chrome.driver", "C:\\DEV\\chromedriver\\chromedriver.exe");
 				driver = new ChromeDriver();
 				Log.info("Chrome browser started");
 			}
